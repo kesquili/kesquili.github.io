@@ -1,48 +1,65 @@
 body {
-  color: #a36284;
+  color: #b972be;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 20px 50px 150px;
   font-size: 14px;
-  text-align: ; left
-  background: #d6627d;
+  text-align: left;
+  background: #fed8e5;
+  min-width: 200px;
+  max-width: 750px
 }
+
 h1 {
-font-family: Georgia, "Palatino Linotype", serif;
-color: #760b20;
-font-size: 25px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #760b20;
+    font-size: 25px;
 }
 
 h2 {
-font-family: Georgia, "Palatino Linotype", serif;
-color: #760b20; 
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #760b20; 
+    opacity: .5;
 }
+
+h2:hover {
+    opacity: .3;  
+    outline: 5px groove red;
+}
+
 .sidebar {
     background-color: #6e415e;
-    color: f0a7bb;
+    color: #f0a7bb;
 }
 
 
 .sidebar h1 a {
-font-family: Georgia, "Palatino Linotype", serif;
-color: #ffac7e;
-margin: 10px;
-font-size: 30px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #ffac7e;
+    margin: 10px;
+    font-size: 30px;
+}
+.highlight span {
+    display: none;
+}
+.highlight:hover span {
+    display: block;
 }
 
 .sidebar h2 {
-color: #b972be;
-margin: 10px;
-font-family: Georgia,"Palatino Linotype", serif;
-font-size: 18px;
-text-align: left;
--webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-transition: all 0.2s;
+    color: #b972be;
+    margin: 10px;
+    font-family: Georgia,"Palatino Linotype", serif;
+    font-size: 18px;
+    text-align: left;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s;
+    opacity: 1;
 }
 
 .sidebar ul{
-list-style-type: none;
+    list-style-type: none;
 }
 
 a:link {
@@ -51,7 +68,7 @@ a:link {
 }
 
 a:visited {
-    color: grey;
+    color: #f0a7bb;
 }
 
 a:hover {
@@ -59,18 +76,22 @@ a:hover {
 }
 
 .sidebar {
-position: fixed;
-top: 0;
-left: 0;
-bottom: 0;
-width: 15rem;
-text-align: left;
-overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15rem;
+    text-align: left;
+    overflow: auto;
 }
 
 .content {
-max-width: 38rem;
-margin-left: 15rem;
-margin-right: 2rem;
+    max-width: 38rem;
+    margin-left: 15rem;
+    margin-right: 2rem;
+}
+
+.highlight {
+    outline: red, groove, 5px;
 }
 
