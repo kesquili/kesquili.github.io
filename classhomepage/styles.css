@@ -41,6 +41,7 @@ h2:hover {
 .highlight span {
     display: none;
 }
+
 .highlight:hover span {
     display: block;
 }
@@ -48,7 +49,6 @@ h2:hover {
 .sidebar h2 {
     color: #b972be;
     margin: 10px;
-    font-family: Georgia,"Palatino Linotype", serif;
     font-size: 18px;
     text-align: left;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -56,6 +56,10 @@ h2:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     transition: all 0.2s;
     opacity: 1;
+}
+
+.sidebar h2:hover{
+    outline: none;
 }
 
 .sidebar ul{
@@ -86,12 +90,12 @@ a:hover {
 }
 
 .content {
-    max-width: 38rem;
-    margin-left: 15rem;
-    margin-right: 2rem;
+    min-width: 600px;
+    margin-left: 200px;
+
+    
 }
 
 .highlight {
     outline: red, groove, 5px;
 }
-

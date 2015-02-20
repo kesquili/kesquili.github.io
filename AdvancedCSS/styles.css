@@ -1,0 +1,57 @@
+body{
+    background-color: yellow;
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    background-image: url(sprite.jpg);
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+}
+
+.test:hover{
+    background-position: -200px 0;
+}
+
+.test:active{
+    background-position: -400px 0;
+}
+
+.overflowtest{
+    background-color: pink;
+    height: 100px;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.test p {
+    top: 20px;
+    right: 100px;
+    
+}
+
+.circle{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.triangle{
+    border-top: 400px solid red;
+    border-right: 300px solid transparent;
+    border-left: 300px solid transparent;
+    
+}
+div {
+    position: absolute;
+    width: 200px
+    height: 200px;
+    background-color: lime;
+}
