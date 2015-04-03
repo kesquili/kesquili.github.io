@@ -3,6 +3,16 @@ font: 14px;
 font-family: Helvetica, sans-serif;
 }
 
+.wrapper {
+    width: 810px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 432px;
+    margin: 0 auto;
+}
+
 .results h4{
     border: 5px;
     border-color: black;
@@ -55,8 +65,17 @@ h6{
     font-size: 12px;
     font-family: Helvetica, sans-serif;
     padding: 0;
-    display: inline;
+    display: inline-block;
+    width: 120px;
     text-align: right;
+    margin: 5px 0;
+    
+}
+input {
+    background-color: yellow;
+    color: orange;
+    border: none;
+    outline: none;
 }
 nav{
     text-align: center;
@@ -82,9 +101,14 @@ li ul {
 ul li a {
     display: block;
     background: #000;
-    padding: 5px 10px 5px 10px;
+    padding: 20px 20px 5px 10px;
     text-decoration: none;
     white-space: nowrap;color: #fff;
+}
+
+.padding {
+        padding: 40px 30px 5px 20px;
+
 }
 
 ul li a:hover {
