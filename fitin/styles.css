@@ -23,6 +23,15 @@ font-family: Helvetica, sans-serif;
     float: left;
     position: relative;
 }
+.closet h4{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin:30px;
+    width: 200px;
+    height: 300px;
+    float: left;
+}
 
 .sideimage {
     border: 10px solid black;
