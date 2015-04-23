@@ -1,41 +1,25 @@
+<!doctype html>
 <html>
-  <head>
-  <title>Fitin: A Men's Styling Brand</title>
-  <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
 <body>
-    <nav>
-        <ul>
-          <li><a href="styling.html" class="padding">STYLING</a></li>
-          <li><a href="#">ABOUT US</a>
-              <ul>
-                  <li><a href="#">CONTACT US</a></li>
-                  <li><a href="#">MEMBERSHIPS</a></li>
-                  <li><a href="#">PRESS</a></li>
-              </ul>
-          </li>
-          <li><a href="#">LIFESTYLE</a>
-             <ul>
-                 <li><a href="#">LOOKING GOOD</a></li>
-                 <li><a href="#">FEELING GOOD</a></li>
-             </ul> 
-          </li>
-          <li><a href="#">MY ACCOUNT</a>
-              <ul>
-                  <li><a href="#">MY CLOSET</a></li>
-              </ul>
-          </li>
-        </ul>
-    </nav>
-    <br>
-    <br>
-    <div class="sideimage">
-    </div>
-    <div>
-        <br>
-        <form action="demo_form.asp" id="styling">
-         Style:
-        </form>
+<nav>
+  <ul>
+      <li><a href="fitme.html">FIT ME</a></li>
+      <li><a href="saveme.html">SAVE ME</a></li>
+      <li><a href="buyme.html">BUY ME</a></li>
+      <li><a href="beme.html">BE ME</a></li>
+      <li><a href="askme.html">ASK ME</a></li>
+  </ul>
+ </nav>
+    <div class="form">
+        <div class="sideimage">
+        </div>
+         <h4>Style:</h4>
         <select name="style" form="styling">
           <option value="select">Select</option>
           <option value="trendy">Trendy</option>
@@ -44,9 +28,7 @@
           <option value="preppy">Preppy</option>
           <option value="americana">Americana</option>
         </select>
-        <form action="demo_form.asp" id="styling">
-         Event:
-        </form>
+        <h4>Event:</h4> 
         <select name="event" form="styling">
           <option value="select">Select</option>
           <option value="brunch">Brunch</option>
@@ -58,23 +40,20 @@
           <option value="barorclub">Bar or Club</option>
           <option value="party">Party</option>
         </select>
-          <form action="demo_form.asp" id="styling">
-         Dress Code:
-        </form>
+         <h4>Dress Code:</h4>
         <select name="dresscode" form="styling">
             <option value="select">Select</option>
           <option value="casual">Casual</option>
           <option value="formal">Formal</option>
         </select>
-        <form action="demo_form.asp" id="styling">
-         Weather:
-        </form>
+        <h4>Weather:</h4> 
         <select name="weather" form="styling">
-            <option value="select">Select</option>
+          <option value="select">Select</option>
           <option value="wormandsunny">Warm and Sunny</option>
           <option value="coolandbreezy">Cool and Breezy</option>
           <option value="coldandwindy">Cold and Windy</option>
         </select>
+        <h4># of Choices</h4> 
         <form>
             <input type="radio" name="number" value="1" checked>1
             <input type="radio" name="number" value="2">2
@@ -83,7 +62,10 @@
             <input type="radio" name="number" value="5">5
         </form> 
         <form>
-            <button type="submit"><a href="results.html">Fit Me</a></button>
+            <button type="submit"><a href="buyme_hipster.html">Hipster</a></button>
+            <button type="submit"><a href="buyme_americana.html">Americana</a></button>
+            <button type="submit"><a href="buyme_urban.html">Urban</a></button>
         </form>
     </div>
 </body>
+</html>
