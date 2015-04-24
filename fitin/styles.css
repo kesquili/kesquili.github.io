@@ -50,6 +50,12 @@ li{
     font-size: 20px;
 }
 
+.text {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
 .results a{
 	text-decoration: none;
 	color: black;
@@ -89,20 +95,15 @@ li{
 	float: left;
 	background-image: url(Images/hipstersprite3.jpg);
 }
+
 .breakdown #hipster {
 	border: 5px solid #060606;
 	width: 800px;
 	height: 200px;
 	margin: 30px;
-	display: block;
 	background-image: url(Images/hipsterbreakdown1.jpg);
 }
 .breakdown #hipster:hover {
-	border: 5px solid #060606;
-	width: 800px;
-	height: 200px;
-	margin: 30px;
-	display: block;
 	background-image: url(Images/hipsterbreakdown2.jpg);
 }
 
@@ -185,17 +186,9 @@ li{
 	border-color: black;
 	border-style: solid;
 	float: left;
-	position: relative;
 	background-image: url(Images/americanabreakdown1.jpg);
 }
 .breakdown #americana:hover {
-	width: 800px;
-	height: 200px;
-	border: 5px;
-	border-color: black;
-	border-style: solid;
-	float: left;
-	position: relative;
 	background-image: url(Images/americanabreakdown2.jpg);
 }
 
@@ -205,6 +198,7 @@ li{
 	border-style: solid;
 	float: left;
 	position: relative;
+	display: none;
 }
 
 .sideimage {
