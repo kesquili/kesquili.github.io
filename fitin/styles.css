@@ -42,9 +42,6 @@ li{
     display: inline;
 }
 
-select{
-}
-
 .form{
     margin: 0 auto;
 }
@@ -52,6 +49,12 @@ select{
 .form h4{
     font-size: 20px;
 }
+
+.results a{
+	text-decoration: none;
+	color: black;
+}
+
 .results h4:hover {
 	background-position: 0px auto;
 	background-position: 200px 0%;
@@ -202,11 +205,6 @@ select{
 	border-style: solid;
 	float: left;
 	position: relative;
-}
-
-.breakdown a{
-	text-decoration: none;
-	color: black;
 }
 
 .sideimage {
