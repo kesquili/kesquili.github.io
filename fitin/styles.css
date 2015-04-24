@@ -5,17 +5,31 @@ body {
 font: 14px;
 font-style: bold;
 font-family: "Courier New", Courier;
+margin: 0;
+padding: 0;
 }
 
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #eee;
+	height: 100%;
+}
 nav {
     width: 700px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 20px;
 }
 nav a{
     color: black;
     text-decoration: none;
     font-size: 24px;
     margin: 10px 20px;
+    border: 2px solid transparent;
+}
+nav a:hover {
+	color: #9C0310;
+	border: 2px dotted #9C0310;
 }
 
 ul{
@@ -38,7 +52,11 @@ select{
 .form h4{
     font-size: 20px;
 }
-.results #sprite1{
+.results h4:hover {
+	background-position: 0px auto;
+	background-position: 200px 0%;
+}
+.results #hipster1{
 	border: 5px;
 	border-color: black;
 	border-style: solid;
@@ -48,7 +66,7 @@ select{
 	float: left;
 	background-image: url(Images/hipstersprite1.jpg);
 }
-.results #sprite2{
+.results #hipster2{
 	border: 5px;
 	border-color: black;
 	border-style: solid;
@@ -58,7 +76,7 @@ select{
 	float: left;
 	background-image: url(Images/hipstersprite2.jpg);
 }
-.results #sprite3{
+.results #hipster3{
 	border: 5px;
 	border-color: black;
 	border-style: solid;
@@ -68,6 +86,24 @@ select{
 	float: left;
 	background-image: url(Images/hipstersprite3.jpg);
 }
+.breakdown #hipster {
+	border: 5px solid #060606;
+	width: 800px;
+	height: 200px;
+	margin: 30px;
+	display: block;
+	background-image: url(Images/hipsterbreakdown1.jpg);
+}
+.breakdown #hipster:hover {
+	border: 5px solid #060606;
+	width: 800px;
+	height: 200px;
+	margin: 30px;
+	display: block;
+	background-image: url(Images/hipsterbreakdown2.jpg);
+}
+
+
 .results #urban1{
 	border: 5px;
 	border-color: black;
@@ -98,6 +134,16 @@ select{
 	float: left;
 	background-image: url(Images/urbansprite3.jpg);
 }
+
+.breakdown #urban {
+	background-image: url(Images/urbanbreakdown1.jpg);
+	width: 800px;
+	height: 200px;
+}
+.breakdown #urban:hover  {
+	background-image: url(Images/urbanbreakdown2.jpg);
+}
+
 .results #americana3{
 	border: 5px;
 	border-color: black;
@@ -129,14 +175,9 @@ select{
 	background-image: url(Images/americanasprite1.jpg);
 }
 
-.breakdown h4{
-	border: 5px;
-	border-color: black;
-	border-style: solid;
-	float: left;
-	position: relative;
-}
 .breakdown #americana{
+	width: 800px;
+	height: 200px;
 	border: 5px;
 	border-color: black;
 	border-style: solid;
@@ -145,6 +186,8 @@ select{
 	background-image: url(Images/americanabreakdown1.jpg);
 }
 .breakdown #americana:hover {
+	width: 800px;
+	height: 200px;
 	border: 5px;
 	border-color: black;
 	border-style: solid;
@@ -152,17 +195,18 @@ select{
 	position: relative;
 	background-image: url(Images/americanabreakdown2.jpg);
 }
-.closet h4{
+
+.breakdown h4{
 	border: 5px;
 	border-color: black;
 	border-style: solid;
-	margin-top: 30px;
-	margin-right: 30px;
-	margin-left: 30px;
-	margin-bottom: 30px;
-	width: 200px;
-	height: 300px;
 	float: left;
+	position: relative;
+}
+
+.breakdown a{
+	text-decoration: none;
+	color: black;
 }
 
 .sideimage {
@@ -202,47 +246,7 @@ input {
     border: none;
     outline: none;
 }
-nav a:hover {
-	color: #9C0310;
-	border: 2px dotted #9C0310;
-}
-.breakdown h4 {
-	border: 5px solid #060606;
-	width: 800px;
-	height: 200px;
-	margin: 30px;
-	display: block;
-}
 
-.breakdown #hipster {
-	border: 5px solid #060606;
-	width: 800px;
-	height: 200px;
-	margin: 30px;
-	display: block;
-	background-image: url(Images/hipsterbreakdown1.jpg);
-}
-.breakdown #hipster:hover {
-	border: 5px solid #060606;
-	width: 800px;
-	height: 200px;
-	margin: 30px;
-	display: block;
-	background-image: url(Images/hipsterbreakdown2.jpg);
-}
-body {
-	float: left;
-	display: block;
-}
-.results img {
-}
-.results img {
-	background-image: url(url);
-}
-.results h4:hover {
-	background-position: 0px auto;
-	background-position: 200px 0%;
-}
 .closet {
 	margin-left: auto;
 	margin-right: auto;
@@ -250,13 +254,25 @@ body {
 	position: relative;
 	/* [disabled]clear: both; */
 }
+.closet h4{
+	border: 5px;
+	border-color: black;
+	border-style: solid;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 300px;
+	float: left;
+}
 .closet #closet1 {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	position: relative;
 	/* [disabled]clear: both; */
-	background-image: url(Images/closet1.jpg);
+	background-image: url(Images/americanasprite3.jpg);
 }
 .closet #closet2 {
 	margin-left: 30px;
@@ -264,7 +280,7 @@ body {
 	display: block;
 	position: relative;
 	/* [disabled]clear: both; */
-	background-image: url(Images/closet2.jpg);
+	background-image: url(Images/hipstersprite3.jpg);
 }
 .closet #closet3 {
 	margin-left: 30px;
@@ -290,13 +306,7 @@ body {
 	/* [disabled]clear: both; */
 	background-image: url(Images/closet5.jpg);
 }
-.breakdown #urban {
-	background-image: url(Images/urbanbreakdown1.jpg);
-	width: 800px;
-}
-.breakdown #urban:hover  {
-	background-image: url(Images/urbanbreakdown2.jpg);
-}
+
 .form form a {
 	text-decoration: none;
 	color: #9C0310;
