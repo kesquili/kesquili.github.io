@@ -52,10 +52,14 @@ li{
 
 .text {
 	position: relative;
-	top: 10px;
+	top: 5px;
 	left: 10px;
 }
-
+.beme{
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
+}
 .results a{
 	text-decoration: none;
 	color: black;
@@ -101,12 +105,33 @@ li{
 	width: 800px;
 	height: 200px;
 	margin: 30px;
-	background-image: url(Images/hipsterbreakdown1.jpg);
+	background-image: url(Images/hipster3bd1.jpg);
 }
 .breakdown #hipster:hover {
-	background-image: url(Images/hipsterbreakdown2.jpg);
+	background-image: url(Images/hipster3bd2.jpg);
 }
 
+.breakdown #hipsterbd1 {
+	border: 5px solid #060606;
+	width: 800px;
+	height: 200px;
+	margin: 30px;
+	background-image: url(Images/hipster1bd1.jpg);
+}
+.breakdown #hipsterbd1:hover {
+	background-image: url(Images/hipster1bd2.jpg);
+}
+
+.breakdown #hipsterbd2 {
+	border: 5px solid #060606;
+	width: 800px;
+	height: 200px;
+	margin: 30px;
+	background-image: url(Images/hipster2bd1.jpg);
+}
+.breakdown #hipsterbd2:hover {
+	background-image: url(Images/hipster2bd2.jpg);
+}
 
 .results #urban1{
 	border: 5px;
@@ -139,13 +164,31 @@ li{
 	background-image: url(Images/urbansprite3.jpg);
 }
 
-.breakdown #urban {
-	background-image: url(Images/urbanbreakdown1.jpg);
+.breakdown #urbanbd1 {
+	background-image: url(Images/urban1bd1.jpg);
 	width: 800px;
 	height: 200px;
 }
-.breakdown #urban:hover  {
-	background-image: url(Images/urbanbreakdown2.jpg);
+.breakdown #urbanbd1:hover  {
+	background-image: url(Images/urban1bd2.jpg);
+}
+
+.breakdown #urbanbd2 {
+	background-image: url(Images/urban2bd1.jpg);
+	width: 800px;
+	height: 200px;
+}
+.breakdown #urbanbd2:hover  {
+	background-image: url(Images/urban2bd2.jpg);
+}
+
+.breakdown #urbanbd3 {
+	background-image: url(Images/urban3bd1.jpg);
+	width: 800px;
+	height: 200px;
+}
+.breakdown #urbanbd3:hover  {
+	background-image: url(Images/urban3bd2.jpg);
 }
 
 .results #americana3{
@@ -186,10 +229,36 @@ li{
 	border-color: black;
 	border-style: solid;
 	float: left;
-	background-image: url(Images/americanabreakdown1.jpg);
+	background-image: url(Images/american1bd1.jpg);
 }
 .breakdown #americana:hover {
-	background-image: url(Images/americanabreakdown2.jpg);
+	background-image: url(Images/american1bd2.jpg);
+}
+
+.breakdown #americanabd2{
+	width: 800px;
+	height: 200px;
+	border: 5px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	background-image: url(Images/american2bd1.jpg);
+}
+.breakdown #americanabd2:hover {
+	background-image: url(Images/american2bd2.jpg);
+}
+
+.breakdown #americanabd3{
+	width: 800px;
+	height: 200px;
+	border: 5px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	background-image: url(Images/american3bd1.jpg);
+}
+.breakdown #americanabd3:hover {
+	background-image: url(Images/american3bd2.jpg);
 }
 
 .breakdown h4{
@@ -206,10 +275,20 @@ li{
 	width: 300px;
 	height: 460px;
 	float: left;
-	margin-right: 12px;
+	margin-right: 20px;
 	background-image: url(Images/Ask-Me.jpg);
 }
-
+.leftimage {
+	width: 300px;
+	height: 460px;
+	float: left;
+	margin-right: 20px;
+	background-image: url(Images/Ask-Me.jpg);
+}
+.askme{
+	float: left;
+	margin-top: 50px;
+}
 .signup{
     margin-left: 20px;
     float: left;
